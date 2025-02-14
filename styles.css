@@ -117,7 +117,7 @@ form textarea {
 footer {
     text-align: center;
     padding: 10px;
-    background: #fff;
+    background: #262626;
     color: #fff;
     position: relative; /* This could be set to 'fixed' or 'absolute' if needed, based on your layout */
 }
