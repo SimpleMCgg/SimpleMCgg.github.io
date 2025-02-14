@@ -1,6 +1,9 @@
+@font-face {
+    font-family: MinecraftRegular;
+  src: url(MinecraftRegular.otf);
+}
 body {
     font-family: MinecraftRegular;
-  src: url(minecraftregular.otf);
     margin: 0;
     padding: 0;
     line-height: 1.6;
