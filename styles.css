@@ -23,6 +23,27 @@ body {
     line-height: 1.6;
 }
 
+* {
+  scrollbar-color: #474747 #292929;
+}
+
+::-webkit-scrollbar {
+  background: #292929;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #474747;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #505050;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #838383;
+}
+
 header {
     background: #333;
     color: #fff;
