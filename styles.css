@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'MinecraftRegular';
     src: url('https://www.fontsaddict.com/fontface/minecraft-regular.ttf');
