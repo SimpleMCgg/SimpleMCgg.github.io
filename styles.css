@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    font-family: 'MinecraftRegular', sans-serif; /* Apply the font to the body */
+    font-family: 'MinecraftRegular'; /* Apply the font to the body */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
