@@ -1,9 +1,10 @@
 @font-face {
-    font-family: MinecraftRegular;
-  src: url(MinecraftRegular.otf);
+    font-family: 'MinecraftRegular';
+    src: url('MinecraftRegular.otf') format('opentype'); /* Specify font format for better browser support */
 }
+
 body {
-    font-family: MinecraftRegular;
+    font-family: 'MinecraftRegular', sans-serif; /* Fallback font added for better accessibility */
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -38,7 +39,9 @@ nav ul li a {
     text-align: center;
 }
 
-#features, #download, #contact {
+#features, 
+#download, 
+#contact {
     padding: 20px;
 }
 
@@ -49,23 +52,26 @@ nav ul li a {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    transition: background 0.3s;
+    transition: background 0.3s; /* Adding transition for smoother hover effect */
 }
 
 .btn:hover {
-    background: #e04524;
+    background: #e04524; /* Darker shade for hover effect */
 }
 
 form {
     display: flex;
     flex-direction: column;
     width: 300px;
-    margin: 0 auto;
+    margin: 0 auto; /* Centers the form */
 }
 
-form input, form textarea {
+form input, 
+form textarea {
     margin: 10px 0;
     padding: 10px;
+    border: 1px solid #ccc; /* Added border for better input visibility */
+    border-radius: 4px; /* Rounded corners for input fields */
 }
 
 footer {
@@ -73,5 +79,5 @@ footer {
     padding: 10px;
     background: #333;
     color: #fff;
-    position: relative;
+    position: relative; /* This could be set to 'fixed' or 'absolute' if needed, based on your layout */
 }
