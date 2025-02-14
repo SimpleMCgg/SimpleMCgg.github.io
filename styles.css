@@ -23,6 +23,10 @@ body {
     line-height: 1.6;
 }
 
+code {
+  font-family: 'MinecraftRegular', monospace;
+}
+
 * {
   scrollbar-color: #474747 #292929;
 }
