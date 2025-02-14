@@ -1,1 +1,1 @@
-# SimpleMCgg.github.io
+# SimpleMC
