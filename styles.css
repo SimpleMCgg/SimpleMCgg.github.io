@@ -51,7 +51,7 @@ code {
 
 header {
     background: #262626;
-    color: #262626;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
 }
@@ -73,7 +73,7 @@ nav ul li a {
 
 #hero {
     background: #262626;
-    color: #262626;
+    color: #fff;
     padding: 50px 0;
     text-align: center;
 }
