@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MinecraftRegular';
-    src: url('MinecraftRegular.otf') format('opentype'); /* Specify font format for better browser support */
+    src: url('https://www.fontsaddict.com/fontface/minecraft-regular.ttf');
 }
 
 body {
