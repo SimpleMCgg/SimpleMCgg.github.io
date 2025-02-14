@@ -3,7 +3,9 @@ body {
     font-family: 'MinecraftRegular';
     src: url('https://www.fontsaddict.com/fontface/minecraft-regular.ttf');
     }
-    font-family: 'MinecraftRegular', sans-serif; /* Fallback font added for better accessibility */
+    *{
+    font-family: 'MinecraftRegular', sans-serif;
+    }/* Fallback font added for better accessibility */
     margin: 0;
     padding: 0;
     line-height: 1.6;
