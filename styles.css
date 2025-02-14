@@ -11,7 +11,7 @@ html {
 
 @font-face {
     font-family: 'MinecraftRegular';
-    src: url('https://www.fontsaddict.com/fontface/minecraft-regular.ttf');
+    src: url('fonts/minecraftregular.ttf');
 }
 
 body {
