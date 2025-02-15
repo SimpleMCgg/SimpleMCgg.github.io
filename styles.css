@@ -91,16 +91,17 @@ nav ul li a {
     display: inline-block;
     width: 120px; /* Set to your texture width */
     height: 60px; /* Set to your texture height */
-    background-image: url('images/button_darkhover.png'); /* Normal state */
+    background-image: url('images/button_light.png'); /* Normal state */
     background-size: cover; /* Cover the button */
     border: none; /* No borders */
     border-radius: 0px; /* Optional rounding */
     cursor: pointer; /* Pointer cursor */
     transition: background 0.2s; /* Smooth transition */
     color: #fff; /* Set a contrasting text color */
-    font-size: 30px; /* Adjust font size */
+    font-size: 16px; /* Adjust font size */
     text-align: center; /* Center the text */
     line-height: 60px; /* Vertically center text by matching the button height */
+    font-family: 'MinecraftRegular';
 }
 
 .btn:hover {
