@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: 'MinecraftRegular'; /* Apply the font to the body */
+    font-family: 'MinecraftTen'; /* Apply the font to the body */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
@@ -20,7 +20,7 @@ body {
 }
 
 code {
-  font-family: 'MinecraftRegular', monospace;
+  font-family: 'MinecraftTen', monospace;
 }
 
 * {
@@ -96,7 +96,7 @@ nav ul li a {
     font-size: 16px; /* Adjust font size */
     text-align: center; /* Center the text */
     line-height: 60px; /* Vertically center text by matching the button height */
-    font-family: 'MinecraftRegular';
+    font-family: 'MinecraftTen';
 }
 
 .btn:hover {
