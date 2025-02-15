@@ -1,0 +1,187 @@
+@keyframes logoFadeIn {
+    0% {
+        opacity: 0;       /* Start fully transparent */
+        transform: scale(0.5); /* Start at half size */
+    }
+    100% {
+        opacity: 1;       /* Fully opaque */
+        transform: scale(1); /* End at full size */
+    }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'MinecraftTen'; /* Apply the font to the body */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #fff;
+}
+
+code {
+  font-family: 'MinecraftTen', monospace;
+}
+
+* {
+  scrollbar-color: #474747 #292929;
+}
+
+::-webkit-scrollbar {
+  background: #292929;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #474747;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #505050;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #838383;
+}
+
+header {
+    background: #373737;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    position: relative; /* Position is needed for the pseudo-element */
+    background-image: url('images/background.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#features, 
+#download, 
+#faq {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    width: 120px; /* Set to your texture width */
+    height: 60px; /* Set to your texture height */
+    background-image: url('images/button_light.png'); /* Normal state */
+    background-size: cover; /* Cover the button */
+    border: none; /* No borders */
+    border-radius: 0px; /* Optional rounding */
+    cursor: pointer; /* Pointer cursor */
+    transition: background 0.2s; /* Smooth transition */
+    color: #000000; /* Set a contrasting text color */
+    font-size: 16px; /* Adjust font size */
+    text-align: center; /* Center the text */
+    line-height: 60px; /* Vertically center text by matching the button height */
+    font-family: 'MinecraftTen';
+}
+
+.btn:hover {
+    background-image: url('images/button_hover.png'); /* Hover state */
+}
+
+.btn:active {
+    background-image: url('images/button_pressed.png'); /* Pressed state */
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto; /* Centers the form */
+}
+
+form input, 
+form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc; /* Added border for better input visibility */
+    border-radius: 4px; /* Rounded corners for input fields */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #262626;
+    color: #fff;
+    position: relative; /* This could be set to 'fixed' or 'absolute' if needed, based on your layout */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 100vh;
+  background-color: #262626;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  gap: 0 2.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.pagination .button-text {
+  width: 38px;
+  max-width: 38px;
+  height: 38px;
+  max-height: 38px;
+}
+
+.pagination .pages-numbers {
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  gap: 0 0.8rem;
+  width: max-content;
+}
+
+.logo {
+    max-width: 60%; /* Ensure it doesn't exceed header size */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Centers the image */
+    margin: 0 auto; /* Center the image */
+    animation: logoFadeIn 1s ease-out; /* Apply the fade-in animation */
+  }
