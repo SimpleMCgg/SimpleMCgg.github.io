@@ -85,13 +85,14 @@ nav ul li a {
     color: #fff;
     padding: 50px 0;
     text-align: center;
+    font-size: 25px; 
 }
 
 #features, 
 #download, 
 #faq {
     text-align: center;
-    font-size: 30px; 
+    font-size: 20px; 
 }
 
 .btn {
