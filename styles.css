@@ -72,8 +72,11 @@ nav ul li a {
 }
 
 #hero {
-    background: #262626;
-    color: #262626;
+    position: relative; /* Position is needed for the pseudo-element */
+    background-image: url('images/background.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    color: #fff;
     padding: 50px 0;
     text-align: center;
 }
