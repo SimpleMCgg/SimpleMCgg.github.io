@@ -50,7 +50,7 @@ code {
 }
 
 header {
-    background: #262626;
+    background: #373737;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -89,16 +89,22 @@ nav ul li a {
 
 .btn {
     display: inline-block;
-    background: #4CAF50; /* Green background color */
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s;
+    width: 150px; /* Set to your texture width */
+    height: 50px; /* Set to your texture height */
+    background-image: url('images/button_darkhover.png'); /* Normal state */
+    background-size: cover; /* Cover the button */
+    border: none; /* No borders */
+    border-radius: 5px; /* Optional rounding */
+    cursor: pointer; /* Pointer cursor */
+    transition: background 0.2s; /* Smooth transition */
 }
 
 .btn:hover {
-    background: #3e8e41; /* Darker shade of green for hover effect */
+    background-image: url('images/button_hover.png'); /* Hover state */
+}
+
+.btn:active {
+    background-image: url('images/button_pressed.png'); /* Pressed state */
 }
 
 
