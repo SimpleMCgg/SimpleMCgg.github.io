@@ -190,18 +190,19 @@ body {
 
 .square-button {
             display: inline-block; /* Make it an inline-block element */
-            width: 350px; /* Width of the square */
-            height: 350px; /* Height of the square */
+            width: 500px; /* Width of the square */
+            height: 300px; /* Height of the square */
             background-image: url('images/square.png'); /* Normal state image */
             background-size: cover; /* Ensures the image covers the square */
             border: none; /* No border */
-            border-radius: 0px; /* Optional: rounded corners */
+            border-radius: 5px; /* Optional: rounded corners */
             cursor: pointer; /* Pointer cursor on hover */
             position: relative; /* Positioning for text */
             text-align: center; /* Center the text */
             line-height: 35px; /* Vertically center the text */
             color: #fff; /* Font color */
             font-weight: bold; /* Bold text */
+            font-size: 20px
             transition: background 0.2s; /* Smooth transition for background */
         }
 
