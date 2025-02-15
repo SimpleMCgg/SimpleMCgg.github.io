@@ -97,7 +97,7 @@ nav ul li a {
     border-radius: 0px; /* Optional rounding */
     cursor: pointer; /* Pointer cursor */
     transition: background 0.2s; /* Smooth transition */
-    color: #fff; /* Set a contrasting text color */
+    color: #000000; /* Set a contrasting text color */
     font-size: 16px; /* Adjust font size */
     text-align: center; /* Center the text */
     line-height: 60px; /* Vertically center text by matching the button height */
