@@ -190,8 +190,8 @@ body {
 
 .square-button {
             display: inline-block; /* Make it an inline-block element */
-            width: 100px; /* Width of the square */
-            height: 100px; /* Height of the square */
+            width: 350px; /* Width of the square */
+            height: 350px; /* Height of the square */
             background-image: url('images/square.png'); /* Normal state image */
             background-size: cover; /* Ensures the image covers the square */
             border: none; /* No border */
@@ -199,7 +199,7 @@ body {
             cursor: pointer; /* Pointer cursor on hover */
             position: relative; /* Positioning for text */
             text-align: center; /* Center the text */
-            line-height: 100px; /* Vertically center the text */
+            line-height: 35px; /* Vertically center the text */
             color: #fff; /* Font color */
             font-weight: bold; /* Bold text */
             transition: background 0.2s; /* Smooth transition for background */
