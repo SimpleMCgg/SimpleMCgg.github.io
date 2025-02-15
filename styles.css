@@ -9,11 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: 'MinecraftRegular';
-    src: url('fonts/minecraftregular.ttf');
-}
-
 body {
     font-family: 'MinecraftRegular'; /* Apply the font to the body */
     -webkit-font-smoothing: antialiased;
