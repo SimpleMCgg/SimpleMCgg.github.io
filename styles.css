@@ -168,7 +168,7 @@ body {
 }
 
 .logo {
-    max-width: 100%; /* Ensure it doesn't exceed header size */
+    max-width: 60%; /* Ensure it doesn't exceed header size */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Centers the image */
     margin: 0 auto; /* Center the image */
