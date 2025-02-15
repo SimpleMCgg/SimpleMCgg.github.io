@@ -1,3 +1,14 @@
+@keyframes logoFadeIn {
+    0% {
+        opacity: 0;       /* Start fully transparent */
+        transform: scale(0.5); /* Start at half size */
+    }
+    100% {
+        opacity: 1;       /* Fully opaque */
+        transform: scale(1); /* End at full size */
+    }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -172,4 +183,5 @@ body {
     height: auto; /* Maintain aspect ratio */
     display: block; /* Centers the image */
     margin: 0 auto; /* Center the image */
+    animation: logoFadeIn 1s ease-out; /* Apply the fade-in animation */
 }
