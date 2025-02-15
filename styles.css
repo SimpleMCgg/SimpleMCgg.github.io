@@ -89,8 +89,8 @@ nav ul li a {
 
 .btn {
     display: inline-block;
-    width: 640px; /* Set to your texture width */
-    height: 320px; /* Set to your texture height */
+    width: 40px; /* Set to your texture width */
+    height: 20px; /* Set to your texture height */
     background-image: url('images/button_darkhover.png'); /* Normal state */
     background-size: cover; /* Cover the button */
     border: none; /* No borders */
